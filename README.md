@@ -1,6 +1,6 @@
 # Flask TODO Monitoring
 
-This project features a Flask-based TODO API for managing tasks through REST endpoints, with implemented POST and GET routes to add and list todos, stored in a MariaDB database. Prometheus is integrated to collect custom metrics such as request counts, latency, database connections, and todo actions, defined in a separate `metrics.py` file. Grafana is configured with a custom 15-panel dashboard to visualize these metrics in real-time. The entire setup—Flask, MariaDB, Prometheus, and Grafana—is containerized using Docker Compose for straightforward deployment.
+This repository features a Flask-based TODO API for managing tasks through REST endpoints, with implemented POST and GET routes to add and list todos, stored in a MariaDB database. Prometheus is integrated to collect custom metrics such as request counts, latency, database connections, and todo actions, defined in a separate `metrics.py` file. Grafana is configured with a custom 15-panel dashboard to visualize these metrics in real-time. The entire setup—Flask, MariaDB, Prometheus, and Grafana—is containerized using Docker Compose for straightforward deployment.
 
 ## Setup
 
